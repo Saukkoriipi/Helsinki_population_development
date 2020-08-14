@@ -14,10 +14,13 @@ Use layers options to activate and deactivate different modes of transport or to
 [Link to test map](https://autogis-2018.github.io/exercise-5-VuokkoH/test_map.html)
 
 ### Population Gif
-[Link to test map](https://saukkoriipi.github.io/StationsPopulation/Population.gif)
+[Link to population gif](https://saukkoriipi.github.io/StationsPopulation/Population.gif)
 
 ### Population in 500 meters range from stations Gif
-[Link to test map](https://saukkoriipi.github.io/StationsPopulation/StationsPopulation.gif)
+[Link to stations population gif](https://saukkoriipi.github.io/StationsPopulation/StationsPopulation.gif)
 
 ### Interactive Bokeh map of population living in 500 meters from station
-[Link to test map](https://saukkoriipi.github.io/StationsPopulation/StationsPopulation.html)
+[Link to interactive stations population page](https://saukkoriipi.github.io/StationsPopulation/StationsPopulation.html)
+
+### Interactive Bokeh map of population living in 500 meters from station
+[Link to one year interactive stations population](https://saukkoriipi.github.io/StationsPopulation/StationsPopulation.html)
