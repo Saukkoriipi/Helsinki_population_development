@@ -9,6 +9,9 @@
 
 ### GIF Animations
 
+#### Population development 1997 to 2019 by station
+[Link to population gif](https://saukkoriipi.github.io/StationsPopulation/PopulationGraph.gif)
+
 #### Population living in whole Helsinki metropolitan area
 [Link to population gif](https://saukkoriipi.github.io/StationsPopulation/Population.gif)
 
