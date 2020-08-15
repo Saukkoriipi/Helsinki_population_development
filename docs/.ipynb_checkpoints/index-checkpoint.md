@@ -1,17 +1,16 @@
-## GIF VISUALIZATIONS
+# Population development in the Helsinki metropolitan area years 1997 to 2019
 
-### Population Gif
+
+## INTERACTIVE VISUALIZATIONS
+
+#### Population living in 500 meters range from station
+[Link to Stations population 1997 to 2019](https://saukkoriipi.github.io/StationsPopulation/StationsPopulation.html)
+
+
+## GIF Animations
+
+#### Population living in whole Helsinki metropolitan area
 [Link to population gif](https://saukkoriipi.github.io/StationsPopulation/Population.gif)
 
-### Population in 500 meters range from stations Gif
+#### Population living in 500 meters range from station
 [Link to stations population gif](https://saukkoriipi.github.io/StationsPopulation/StationsPopulation.gif)
-
-
-
-## INTERACTIVE BOKEH VISUALIZATIONS
-
-### Population living in 500 meters from station in 2019
-[Link to interactive stations population page](https://saukkoriipi.github.io/StationsPopulation/Population2019.html)
-
-### Ppopulation living in 500 meters from station years 1997 to 2019
-[Link to one year interactive stations population](https://saukkoriipi.github.io/StationsPopulation/StationsPopulation.html)
