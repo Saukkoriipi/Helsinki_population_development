@@ -1,6 +1,7 @@
 ## Population in Helsinki metropolitan area years 1997 to 2019
 
 ### Introduction
+Tekstiä....
 
 ### Results
 
@@ -27,28 +28,28 @@ Results page can be found from the link bellow
 #### What used notebooks do
 
 ###### CreatePopulation.ipynb
-Read population data from folder population_data, join tables and save result as shapefile to population_data folder.
+Read population data from folder population_data, join tables and save result as shapefile in same folder.
 
 ###### CreateStations.ipynb
-
+Read stations data from folder stations_data, clean data and save result as shapefile to same folder.
 
 ###### GetRailsData.ipynb
+Get rails data from osmnx, then filter rails only to cover area with stations and save result to railway_data as shapefile.
 
-
-###### CreatStationsPopulation.ipynb
-
+###### CreateStationsPopulation.ipynb
+Reads population and station data. Creates 500 meters buffer around stations, then calculates population size for every station and year and saves result to population_data folder as station_population shapefile.
 
 ###### CreatePicsPopByStation.ipynb
-
+Reads stations_population data and creates graphs for every station. Result is saved in folder pics_stations_graphs.
 
 ###### CreatePicsPopulation.ipynb
-
+Reads population, railways and stations data and creates map figure for every year. Result is saved in folder pics_all_population.
 
 ###### CreatePicsStationsPopulation.ipynb
-
+Reads stations_population, railways and stations data and creates map figure for every year. Result is saved in folder pics_stations_population.
 
 ###### CreateGifs.ipynb
-
+Create gif animations of images in folders pics_all_population, pics_stations_graphs and pics_stations_population. GIF animations are saved in folder docs.
 
 ###### CreateBokeh.ipynb
-
+Create interactive Bokeh map visualization. Read stations_population, railways and stations data and creates bokeh map. Result is saved in folder docs with name StationsPopulation.html.
