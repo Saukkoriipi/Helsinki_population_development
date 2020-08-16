@@ -20,7 +20,7 @@ Results page can be found from the link bellow
 3. GetRailsData.ipynb
 4. CreatStationsPopulation.ipynb
 ###### Then visualize cleaned data
-5. CreatePicsPopByStation.ipynb
+5. CreateGraphsPopByStation.ipynb
 6. CreatePicsPopulation.ipynb
 7. CreatePicsStationsPopulation.ipynb
 8. CreateGifs.ipynb
@@ -40,7 +40,7 @@ Get rails data from osmnx, then filter rails only to cover area with stations us
 ##### CreateStationsPopulation.ipynb
 Reads population and station shapefiles. Creates 500 meters buffer around stations, then calculates population size for every station and year and saves result to population_data folder as stations_population shapefile.
 
-##### CreatePicsPopByStation.ipynb
+##### CreateGraphsPopByStation.ipynb
 Reads stations_population shapefiles and creates graphs for every station. Result is saved in folder pics_stations_graphs.
 
 ##### CreatePicsPopulation.ipynb
