@@ -3,12 +3,27 @@
 ### Introduction
 Tekstiä....
 
+### Data sources
+Population data is from Helsingin seudun ympäristöpalvelut (HSY)
+[Link to population data](https://vanha.hsy.fi/fi/asiantuntijalle/avoindata/Sivut/AvoinData.aspx?dataID=7)
+
+Metro and train rails are downloaded from OpenStreetMaps using osmnx
+[Link to osmnx](https://github.com/gboeing/osmnx)
+[Link to OpenStreetMap](https://www.openstreetmap.org/)
+
+Stations names are from HSL
+[Link to HSL station names](https://www.hsl.fi/reitit-ja-aikataulut/asemien-lahialuekartat)
+
+Stations opening years are from Wikipedia
+[Link to Wikipedia](https://www.wikipedia.org/)
+
+Stations location coordinates are from Google Maps
+[Link to Google Maps](https://www.google.fi/maps)
+
 ### Results
 
-Results page can be found from the link bellow
+Results are presented on the following page:
 [Link to Stations population 1997 to 2019](https://saukkoriipi.github.io/StationsPopulation/)
-
-
 
 ## Guide to notebooks
 
