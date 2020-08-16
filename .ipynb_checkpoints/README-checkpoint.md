@@ -1,19 +1,54 @@
 ## Population in Helsinki metropolitan area years 1997 to 2019
 
+### Introduction
 
-### INTERACTIVE VISUALIZATIONS
+### Results
 
-#### Population living in 500 meters range from station
-[Link to Stations population 1997 to 2019](https://saukkoriipi.github.io/StationsPopulation/StationsPopulation.html)
+Results page can be found from the link bellow
+[Link to Stations population 1997 to 2019](https://saukkoriipi.github.io/StationsPopulation/)
 
 
-### GIF Animations
 
-#### Population living in whole Helsinki metropolitan area
-[Link to population gif](https://saukkoriipi.github.io/StationsPopulation/Population.gif)
+### Guide to notebooks
 
-#### Population living in 500 meters range from station on graph
-[Link to stations population graphs](https://saukkoriipi.github.io/StationsPopulation/StationsGraph.gif)
+#### Use following sequence when running the code
+###### First use following notebooks to clean and modify data
+1. CreatePopulation.ipynb
+2. CreateStations.ipynb
+3. GetRailsData.ipynb
+4. CreatStationsPopulation.ipynb
+###### Then visualize cleaned data
+5. CreatePicsPopByStation.ipynb
+6. CreatePicsPopulation.ipynb
+7. CreatePicsStationsPopulation.ipynb
+8. CreateGifs.ipynb
+7. CreateBokeh.ipynb
 
-#### Population living in 500 meters range from station on map
-[Link to stations population map](https://saukkoriipi.github.io/StationsPopulation/StationsPopulation.gif)
+#### What used notebooks do
+
+###### CreatePopulation.ipynb
+Read population data from folder population_data, join tables and save result as shapefile to population_data folder.
+
+###### CreateStations.ipynb
+
+
+###### GetRailsData.ipynb
+
+
+###### CreatStationsPopulation.ipynb
+
+
+###### CreatePicsPopByStation.ipynb
+
+
+###### CreatePicsPopulation.ipynb
+
+
+###### CreatePicsStationsPopulation.ipynb
+
+
+###### CreateGifs.ipynb
+
+
+###### CreateBokeh.ipynb
+
