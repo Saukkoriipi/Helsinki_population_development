@@ -10,7 +10,7 @@ Results page can be found from the link bellow
 
 
 
-### Guide to notebooks
+## Guide to notebooks
 
 ### Use following sequence when running the notebooks
 
@@ -26,7 +26,7 @@ Results page can be found from the link bellow
 8. CreateGifs.ipynb
 9. CreateBokeh.ipynb
 
-### Introduction to what notebooks do
+### Introduction to notebooks
 
 ##### CreatePopulation.ipynb
 Read population data from folder population_data, join tables and save result as shapefile in same folder.
