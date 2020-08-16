@@ -35,16 +35,16 @@ Read population data from folder population_data, join tables and save result as
 Read stations data from folder stations_data, clean data and save result as shapefile to same folder.
 
 ##### GetRailsData.ipynb
-Get rails data from osmnx, then filter rails only to cover area with stations and save result to railway_data as shapefile.
+Get rails data from osmnx, then filter rails only to cover area with stations using stations shapefile. Save result to railway_data as shapefile.
 
 ##### CreateStationsPopulation.ipynb
-Reads population and station data. Creates 500 meters buffer around stations, then calculates population size for every station and year and saves result to population_data folder as station_population shapefile.
+Reads population and station shapefiles. Creates 500 meters buffer around stations, then calculates population size for every station and year and saves result to population_data folder as stations_population shapefile.
 
 ##### CreatePicsPopByStation.ipynb
-Reads stations_population data and creates graphs for every station. Result is saved in folder pics_stations_graphs.
+Reads stations_population shapefiles and creates graphs for every station. Result is saved in folder pics_stations_graphs.
 
 ##### CreatePicsPopulation.ipynb
-Reads population, railways and stations data and creates map figure for every year. Result is saved in folder pics_all_population.
+Reads population, railways and stations shapefiles and creates map figure for every year. Result is saved in folder pics_all_population.
 
 ##### CreatePicsStationsPopulation.ipynb
 Reads stations_population, railways and stations data and creates map figure for every year. Result is saved in folder pics_stations_population.
@@ -53,4 +53,4 @@ Reads stations_population, railways and stations data and creates map figure for
 Create gif animations of images in folders pics_all_population, pics_stations_graphs and pics_stations_population. GIF animations are saved in folder docs.
 
 ##### CreateBokeh.ipynb
-Create interactive Bokeh map visualization. Read stations_population, railways and stations data and creates bokeh map. Result is saved in folder docs with name StationsPopulation.html.
+Create interactive Bokeh map visualization. Read stations_population, railways and stations shapefiles and creates bokeh map. Result is saved in folder docs with name StationsPopulation.html.
