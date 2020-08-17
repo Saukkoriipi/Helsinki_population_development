@@ -17,7 +17,7 @@ Population data is downloaded from Helsingin seudun ympäristöpalvelut (HSY)
 [Link to population data](https://vanha.hsy.fi/fi/asiantuntijalle/avoindata/Sivut/AvoinData.aspx?dataID=7)
 
 Metro and train rails are downloaded from OpenStreetMaps using osmnx
-[Link to osmnx](https://github.com/gboeing/osmnx)
+[Link to osmnx](https://github.com/gboeing/osmnx) <br/>
 [Link to OpenStreetMap](https://www.openstreetmap.org/)
 
 Stations names are from HSL
