@@ -9,24 +9,24 @@ You are free to use data and code presented in this project.
 
 ### Results
 
-Results are presented on the following page:
+Results are presented on the following page: <br/>
 [Link to Stations population 1997 to 2019](https://saukkoriipi.github.io/StationsPopulation/)
 
 ### Data sources
-Population data is downloaded from Helsingin seudun ympäristöpalvelut (HSY)
+Population data is downloaded from Helsingin seudun ympäristöpalvelut (HSY) <br/>
 [Link to population data](https://vanha.hsy.fi/fi/asiantuntijalle/avoindata/Sivut/AvoinData.aspx?dataID=7)
 
-Metro and train rails are downloaded from OpenStreetMaps using osmnx
+Metro and train rails are downloaded from OpenStreetMaps using osmnx <br/>
 [Link to osmnx](https://github.com/gboeing/osmnx) <br/>
 [Link to OpenStreetMap](https://www.openstreetmap.org/)
 
-Stations names are from HSL
+Stations names are from HSL <br/>
 [Link to HSL station names](https://www.hsl.fi/reitit-ja-aikataulut/asemien-lahialuekartat)
 
-Stations opening years are from Wikipedia
+Stations opening years are from Wikipedia <br/>
 [Link to Wikipedia](https://www.wikipedia.org/)
 
-Stations location coordinates are from Google Maps
+Stations location coordinates are from Google Maps <br/>
 [Link to Google Maps](https://www.google.fi/maps)
 
 
