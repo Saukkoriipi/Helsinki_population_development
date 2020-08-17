@@ -1,11 +1,16 @@
 ## Population in Helsinki metropolitan area years 1997 to 2019
 
 ### Introduction
-This project has been done as a final work for the course Automating GIS-processes. In this project, I wanted to study population development in close range (max 500 meters) from metro and train stations.
+This project has been done as a final work for the course Automating GIS-processes. In this project, I have to studied population development in close range (max 500 meters) from metro and train stations.
 
 In 2017 new metro line was opened (Länsimetro) and a new train line in 2015 (Kehärata). We can see from the results of how the building of new stations affects the population development in the vicinity of the new station.
 
 You are free to use data and code presented in this project.
+
+### Results
+
+Results are presented on the following page:
+[Link to Stations population 1997 to 2019](https://saukkoriipi.github.io/StationsPopulation/)
 
 ### Data sources
 Population data is downloaded from Helsingin seudun ympäristöpalvelut (HSY)
@@ -24,10 +29,6 @@ Stations opening years are from Wikipedia
 Stations location coordinates are from Google Maps
 [Link to Google Maps](https://www.google.fi/maps)
 
-### Results
-
-Results are presented on the following page:
-[Link to Stations population 1997 to 2019](https://saukkoriipi.github.io/StationsPopulation/)
 
 ## Guide to notebooks
 
@@ -48,7 +49,7 @@ Results are presented on the following page:
 ### Introduction to notebooks
 
 ##### CreatePopulation.ipynb
-Read population data from folder population_data, join tables and save result as shapefile in same folder.
+Read population data from folder population_data, clean data, join tables and save result as shapefile in same folder.
 
 ##### CreateStations.ipynb
 Read stations data from folder stations_data, clean data and save result as shapefile to same folder.
@@ -57,19 +58,19 @@ Read stations data from folder stations_data, clean data and save result as shap
 Get rails data from osmnx, then filter rails only to cover area with stations using stations shapefile. Save result to railway_data as shapefile.
 
 ##### CreateStationsPopulation.ipynb
-Reads population and station shapefiles. Creates 500 meters buffer around stations, then calculates population size for every station and year and saves result to population_data folder as stations_population shapefile.
+Reads population and station shapefiles. Creates 500 meters buffer around stations, then calculates population size for every station and every year and saves result to population_data folder as stations_population shapefile.
 
 ##### CreateGraphsPopByStation.ipynb
-Reads stations_population shapefiles and creates graphs for every station. Result is saved in folder pics_stations_graphs.
+Reads stations_population shapefiles and creates graphs for every station. Graphs are saved in folder docs/stations_graphs.
 
 ##### CreatePicsPopulation.ipynb
-Reads population, railways and stations shapefiles and creates map figure for every year. Result is saved in folder pics_all_population.
+Reads population, railways and stations shapefiles and creates map figure for every year. Results are saved in folder pics.
 
 ##### CreatePicsStationsPopulation.ipynb
-Reads stations_population, railways and stations data and creates map figure for every year. Result is saved in folder pics_stations_population.
+Reads stations_population, railways and stations data and creates map figure for every year. Results are saved in folder pics.
 
 ##### CreateGifs.ipynb
-Create gif animations of images in folders pics_all_population, pics_stations_graphs and pics_stations_population. GIF animations are saved in folder docs.
+Create gif animations of images in folders pics and decs/stations_graphs. GIF animations are saved in folder docs.
 
 ##### CreateBokeh.ipynb
-Create interactive Bokeh map visualization. Read stations_population, railways and stations shapefiles and creates bokeh map. Result is saved in folder docs with name StationsPopulation.html.
+Create interactive Bokeh map visualization. Read stations_population, railways and stations shapefiles and creates bokeh map. Result is saved in folder docs.
