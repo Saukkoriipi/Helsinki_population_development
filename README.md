@@ -1,7 +1,7 @@
 ## Population in Helsinki metropolitan area years 1997 to 2019
 
 ### Introduction
-This project has been done as a final work for the course Automating GIS-processes. In this project, I have studied population development in close range (max 500 meters) from metro and train stations.
+This project has been done as a final work for the course Automating GIS-processes. The project aim was to study population development in close range (max 500 meters) from metro and train stations.
 
 In 2017 new metro line was opened (Länsimetro) and a new train line in 2015 (Kehärata). We can see from the results of how the building of new stations affects the population development in the vicinity of the new station.
 
